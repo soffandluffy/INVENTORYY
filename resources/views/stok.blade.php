@@ -5,7 +5,7 @@
 @endsection
 
 @section('header')
-	<link rel="stylesheet" href="../css/jquery-ui.css">
+	<link rel="stylesheet" href="/inventory/INVENTORYY/public/css/jquery-ui.css">
 	<style type="text/css">
 		th{
 			text-align: center;
@@ -65,8 +65,8 @@
 @endsection
 
 @section('footer')
-    <script src="../js/jquery-1.12.4.js"></script>
-    <script src="../js/jquery-ui.js"></script>
+    <script src="/inventory/INVENTORYY/public/js/jquery-1.12.4.js"></script>
+    <script src="/inventory/INVENTORYY/public/js/jquery-ui.js"></script>
     <script type="text/javascript">
     	document.getElementById("stoks").hidden = "true";
     	$( "#search" ).autocomplete({

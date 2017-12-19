@@ -4,10 +4,10 @@
 	<title></title>
 
 	<!-- Styles -->
-    <link href="../css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection">
-  <link href="../css/style.min.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="/inventory/INVENTORYY/public/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="/inventory/INVENTORYY/public/css/style.min.css" type="text/css" rel="stylesheet" media="screen,projection">
     <!-- Custome CSS-->    
-  <link href="../css/page-center.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="/inventory/INVENTORYY/public/css/page-center.css" type="text/css" rel="stylesheet" media="screen,projection">
 </head>
 <body>
 	<div id="error-page">
@@ -44,7 +44,7 @@
 
   <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-      <script type="text/javascript" src="../js/materialize.min.js"></script>
-      <script type="text/javascript" src="../js/sweetalert.min.js"></script>
+      <script type="text/javascript" src="/inventory/INVENTORYY/public/js/materialize.min.js"></script>
+      <script type="text/javascript" src="/inventory/INVENTORYY/public/js/sweetalert.min.js"></script>
 </body>
 </html>

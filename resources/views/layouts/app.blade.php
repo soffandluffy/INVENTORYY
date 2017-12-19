@@ -9,13 +9,13 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>@yield('title')</title>
-    <link rel="icon" href="/images/logo.png">
+    <link rel="icon" href="/inventory/INVENTORYY/public/images/logo.png">
 
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="../../css/materialize.min.css"  media="screen,projection"/>
-      <link type="text/css" rel="stylesheet" href="../../css/sweetalert.css"/>
+      <link type="text/css" rel="stylesheet" href="/inventory/INVENTORYY/public/css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="/inventory/INVENTORYY/public/css/sweetalert.css"/>
       <style type="text/css">
         .line{
           height: 2px;
@@ -39,7 +39,7 @@
       <div class="navbar-fixed">
         <nav>
           <div class="nav-wrapper">
-            <a href="/home" class="brand-logo" style="margin-left: 20px; font-size: 23px;"><img class="left" style="width: 62px; height: 62px;" src="/images/logo.png">AVHERINDO JAYA SPORT</a>
+            <a href="/home" class="brand-logo" style="margin-left: 20px; font-size: 23px;"><img class="left" style="width: 62px; height: 62px;" src="/inventory/INVENTORYY/public/images/logo.png">AVHERINDO JAYA SPORT</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li id="stoks">
                   <a href="/stok"><i class="material-icons left">view_list</i>Stok Barang</a>
@@ -76,9 +76,9 @@
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
     <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="../../js/jquery-3.2.1.min.js"></script>
-      <script type="text/javascript" src="../../js/materialize.min.js"></script>
-      <script type="text/javascript" src="../../js/sweetalert.min.js"></script>
+      <script type="text/javascript" src="/inventory/INVENTORYY/public/js/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="/inventory/INVENTORYY/public/js/materialize.min.js"></script>
+      <script type="text/javascript" src="/inventory/INVENTORYY/public/js/sweetalert.min.js"></script>
       <script type="text/javascript">
         $('select').material_select();
       </script>
